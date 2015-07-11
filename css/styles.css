@@ -1,0 +1,27 @@
+/* Background pattern from subtlepatterns.com */
+/* http://subtlepatterns.com/dark-embroidery/ */
+body {
+  background-image:url(../images/dark_embroidery.png);
+  background-attachment: fixed;
+  margin-top: 50px;
+}
+
+/*  dark violet #6F5499  light violet #CDBFE3 */
+
+.panel-default {
+  border-color: #6F5499 ;
+  background-color: #CDBFE3;
+  color: white;
+}
+
+.panel-default .panel-heading {
+  border-color: #6F5499 ;
+  background-color: #6F5499;
+  color: white;
+}
+
+.well {
+  background-color: #CDBFE3;
+  border-color: #6F5499 ;
+  border-width: 3px;
+}
