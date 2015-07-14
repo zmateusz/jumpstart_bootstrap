@@ -25,3 +25,24 @@ body {
   border-color: #6F5499 ;
   border-width: 3px;
 }
+
+.affix {
+  z-index: 1;
+}
+
+.page-header {
+  padding-top: 20px;
+  margin: 0px 0px 20px;
+}
+
+li ul {
+  display: none;
+}
+
+li.active ul {
+  display: block;
+}
+
+h2 {
+  height: 500px;
+}
