@@ -1,8 +1,13 @@
-$(document).ready(function () {
-
-// $(function(){
-// var sideBarNavWidth=$('#leftcolumn').width() - parseInt($('#sidebarnav').css('paddingLeft')) - parseInt($('#sidebarnav').css('paddingRight'));
-// $('#sidebarnav').css('width', sideBarNavWidth);
-// });
-
+$('.scrollspy').affix({
+  offset: {
+    top: $('.scrollspy').offset().top
+  } 
 });
+
+$('.scrollspy').on('affixed-top.bs.affix', function () {
+  $('#mainnav li:first').removeClass("active");
+})
+
+$('.scrollspy').on('affix.bs.affix', function () {
+  $('#mainnav li:first').addClass("active");
+})

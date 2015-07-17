@@ -27,7 +27,14 @@ body {
 }
 
 .affix {
-  z-index: 1;
+  top: 20px;
+  width: 213px;
+}
+
+@media (min-width: 1200px) {
+  .affix {
+    width: 263px;
+  }         
 }
 
 .page-header {
