@@ -1,3 +1,7 @@
+$(function(){
+  $("#content").load("content.html");
+});
+
 $('.scrollspy').affix({
   offset: {
     top: $('.scrollspy').offset().top
