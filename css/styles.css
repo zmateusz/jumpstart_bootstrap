@@ -7,6 +7,18 @@ body {
 
 /*  dark violet #6F5499  light violet #CDBFE3 */
 
+.navbar-inverse{
+  background-color: #6F5499;
+  border-color: #6F5499;
+  border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+  color: #CDBFE3;
+
+}
+
 .panel-default {
   border-color: #6F5499 ;
   background-color: #CDBFE3;
@@ -26,7 +38,7 @@ body {
 }
 
 .affix {
-  top: 20px;
+  top: 20px;I
   width: 213px;
 }
 
@@ -49,6 +61,55 @@ li.active ul {
   display: block;
 }
 
+/* Both navigation lists */
+.nav li a {
+  color: #6F5499;
+  border-radius: 0;
+}
+.nav > li.active > a {
+  background: #6F5499;
+  font-weight: bold;
+}
+
+/* Primary navigation list */
+.well > .nav > li > a:hover,
+.well > .nav > li > a:focus {
+  background: #6F5499;
+  color: white;
+  font-weight: bold;
+}
+
+/* Inner navigation list */
+.nav .nav > li > a:hover,
+.nav .nav > li > a:focus {
+  padding-left: 24px;
+  background: #CDBFE3;
+  border-left: 1px solid #6F5499;
+  color: #6F5499;
+}
+.nav .nav > li > a{
+  padding-left: 25px;
+  background: #CDBFE3;
+  color: #6F5499;
+} 
+.nav .nav > .active > a,
+.nav .nav > .active > a:hover,
+.nav .nav > .active > a:focus {
+  padding-left: 22px;
+  border-left: 3px solid #6F5499;
+}
+
 h2 {
   height: 500px;
+}
+
+/* WebKit/Blink Browsers */
+::selection { 
+  background: #6F5499;
+  color: white;
+}
+/* Gecko Browsers */
+::-moz-selection {
+  background: #6F5499; 
+  color: white;
 }

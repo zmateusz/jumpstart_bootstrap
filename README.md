@@ -7,8 +7,8 @@ Przykłady z książki Bootstrap (Sitepoint)
 * actual content
 * about page
 * footer?
-* nav custom colors
 * icons
 * searchbox function
 * html skeleton check
 * meta tags
+* navigation generating script, content-based
