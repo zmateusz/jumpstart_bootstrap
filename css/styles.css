@@ -16,7 +16,6 @@ body {
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-brand {
   color: #CDBFE3;
-
 }
 
 .panel-default {
@@ -38,7 +37,7 @@ body {
 }
 
 .affix {
-  top: 20px;I
+  top: 20px;
   width: 213px;
 }
 
@@ -87,7 +86,7 @@ li.active ul {
   border-left: 1px solid #6F5499;
   color: #6F5499;
 }
-.nav .nav > li > a{
+.nav .nav > li > a {
   padding-left: 25px;
   background: #CDBFE3;
   color: #6F5499;
@@ -113,3 +112,25 @@ h2 {
   background: #6F5499; 
   color: white;
 }
+
+/* fix for different width */
+#links {
+  padding: 0 30px 0 30px;
+}
+
+#row-links {
+  /*display: none;*/
+}
+
+ul {
+  list-style-type: square;
+}
+
+a {
+  color: #6F5499;
+}
+
+dt {
+  font-weight: normal;
+}
+
