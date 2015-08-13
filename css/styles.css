@@ -13,9 +13,14 @@ body {
   border-radius: 0px;
 }
 
-.navbar-inverse .navbar-nav > li > a,
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-nav > li > a {
   color: #CDBFE3;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #6F5499;
 }
 
 .panel-default {
@@ -116,10 +121,6 @@ h2 {
 /* fix for different width */
 #links {
   padding: 0 30px 0 30px;
-}
-
-#row-links {
-  /*display: none;*/
 }
 
 ul {
