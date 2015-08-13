@@ -1,5 +1,5 @@
 $(function(){
-  $("#content").load("content.html");
+  hljs.initHighlightingOnLoad();
 });
 
 $('.scrollspy').affix({

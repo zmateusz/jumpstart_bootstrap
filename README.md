@@ -11,4 +11,3 @@ Przykłady z książki Bootstrap (Sitepoint)
 * html skeleton check
 * meta tags
 * navigation generating script, content-based
-* pages switching
