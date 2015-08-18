@@ -135,3 +135,20 @@ dt {
   font-weight: normal;
 }
 
+/* 12 COLUMNS */
+.col-xs-1 > p {
+  margin: 20px 0;
+  color: black;
+}
+.turquoise { background-color: #1abc9c; }
+.emerald { background-color: #2ecc71; }
+.lime { background-color: #cddc39; }
+.amber { background-color: #ffc107; }
+.orange { background-color: #ff9800; }
+.blood-orange { background-color: #ff5722; }
+.red { background-color: #f44336; }
+.purple { background-color: #9c27b0; }
+.deep-purple { background-color: #673ab7; }
+.indigo { background-color: #3f51b5; }
+.blue { background-color: #2196f3; }
+.cyan { background-color: #00bcd4; }

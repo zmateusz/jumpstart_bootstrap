@@ -183,10 +183,41 @@
 <pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css&quot;&gt;
 &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;</code></pre>
 
-                Do poprawnego działania komponentów JavaScript wymagana jest biblioteka jQuery - <a href="http://jquery.com">http://jquery.com</a> 
+                Do poprawnego działania komponentów JavaScript wymagana jest biblioteka jQuery - <a href="http://jquery.com">http://jquery.com</a>. jQuery w wersji 2 i wzwyż nie wspiera przeglądarek Internet Explorer 8+.
 <pre><code class="html">&lt;script src=&quot;js/jquery.js&quot;&gt;&lt;/script&gt;
   &lt;!-- OR --&gt;
 &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+
+                <h2 id="headtags">Pozostałe ustawienia</h2>
+                Tryb zgodności IE. Wymuszenie użycia najnowszej wersji silnika renderującego:
+<pre><code class="html">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;</code></pre>
+
+                Przeskalowanie strony do rozmiarów okna na wszystkich urządzeniach:
+<pre><code class="html">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</code></pre>
+                
+                Zapewnienie obsługi HTML5 i CSS3 w IE 8:
+<pre><code class="html">&lt;!--[if lt IE 9]&gt;
+  &lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;</code></pre>
+
+                <h1 id="gridsystem" class="page-header">System siatkowy</h1>
+                System siatkowy ułatwia rozmieszczenie elementów na stronie za pomocą rzędów i kolumn. Każdy rząd może zawierać do 12 kolumn. Szerokość kolumn dynamicznie dopasowuje się do wielkości okna. <br> Dokumentacja systemu siatkowego: <a href="http://getbootstrap.com/css/#grid">http://getbootstrap.com/css/#grid</a><br><br>
+                <div class="row">
+                  <div class="col-xs-1 turquoise"><p class="text-center">1</p></div>
+                  <div class="col-xs-1 emerald"><p class="text-center">2</p></div>
+                  <div class="col-xs-1 lime"><p class="text-center">3</p></div>
+                  <div class="col-xs-1 amber"><p class="text-center">4</p></div>
+                  <div class="col-xs-1 orange"><p class="text-center">5</p></div>
+                  <div class="col-xs-1 blood-orange"><p class="text-center">6</p></div>
+                  <div class="col-xs-1 red"><p class="text-center">7</p></div>
+                  <div class="col-xs-1 purple"><p class="text-center">8</p></div>
+                  <div class="col-xs-1 deep-purple"><p class="text-center">9</p></div>
+                  <div class="col-xs-1 indigo"><p class="text-center">10</p></div>
+                  <div class="col-xs-1 blue"><p class="text-center">11</p></div>
+                  <div class="col-xs-1 cyan"><p class="text-center">12</p></div>
+                </div>
+                <h2 id="template">Podstawowy szablon</h2>
 
                 <h1 id="home" class="page-header">HOME.</h1>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
